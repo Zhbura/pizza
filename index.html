@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div id="home" class="header__logo">
+                <img src="./img/logo.avif" alt="Лого" loading="lazy">
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-items">
+                    <li class="header__nav-item">
+                        <a href="#home" class="header__nav-link header__nav-link_active">Home</a>
+                    </li>
+                    <li>
+                        <a href="#catalog" class="header__nav-link">Catalog</a>
+                    </li>
+                    <li>
+                        <a href="#reviews" class="header__nav-link">Reviews</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__options">
+                <div class="header__cart" alt="Корзина" loading="lazy">
+                    <img src="./img/cart.svg">
+                    <span>2</span>
+                </div>
+                <div class="header__profile">
+                    <img src="./img/user.svg" alt="Профиль" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner indent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <h1 class="heading-h1">Pizza delivery</h1>
+                        <p class="banner__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur assumenda debitis ducimus,
+                            odio reiciendis vero exercitationem aliquid nam inventore eius reprehenderit nisi blanditiis
+                            iste eligendi sint voluptate eos expedita quos.
+                        </p>
+                        <button class="banner__btn">Order delivery </button>
+                    </div>
+                    <div class="col-7">
+                        <img src="./img/banner.jpg" alt="Баннер для сайта" loading="lazy">
+                        <div class="banner__smile banner__smile_top">
+                            <span>😋</span>
+                            Om-nom-nom...
+                        </div>
+                        <div class="banner__smile banner__smile_bottom">
+                            <span>🥰</span>
+                            Sooooo delicious!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="catalog" class="products indent">
+            <div class="container">
+                <h2 class="heading-h2">Products</h2>
+                <div class="products__filter">
+                    <div class="products__filter-item">Size <img src="./img/arrow-bottom.svg"></div>
+                    <div class="products__filter-item">Type of dough <img src="./img/arrow-bottom.svg"> </div>
+                </div>
+                <div class="row">
+                    <div class="col-3  product-card">
+                        <div class="product-card__img">
+                            <img src="./img/product-1.avif" alt="product 1" loading="lazy">
+                        </div>
+                        <h3 class="product-card__heading-h3">Pizza Mix</h3>
+                        <p class="product-card__text">
+                            Quarter pizza with ham, chicken, tomatoes, feta cheese, mozzarella, signature alfredo
+                            sauce
+                        </p>
+                        <div class="product-card__wrap-bottom">
+                            <p class="product-card__price">789 ₽</p>
+                            <button class="product-card__btn">
+                                <img src="./img/cart-color.svg" alt="Order" loading="lazy"><span>Order</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-3  product-card">
+                        <div class="product-card__img">
+                            <img src="./img/product-1.avif" alt="product 1" loading="lazy">
+                            <div class="product-card__label product-card__label_new">New</div>
+                        </div>
+                        <h3 class="product-card__heading-h3">Pizza Julien</h3>
+                        <p class="product-card__text">
+                            Chicken, champignons, creamy mushroom sauce, red onion, garlic, mozzarella, cheddar and
+                            parmesan cheese mixture, signature alfredo sauce
+                        </p>
+                        <div class="product-card__wrap-bottom">
+                            <p class="product-card__price">789 ₽</p>
+                            <button class="product-card__btn">
+                                <img src="./img/cart-color.svg" alt="Order" loading="lazy"><span>Order</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-3  product-card">
+                        <div class="product-card__img">
+                            <img src="./img/product-1.avif" alt="product 1" loading="lazy">
+                            <div class="product-card__label product-card__label_bestseller">Bestseller</div>
+                        </div>
+                        <h3 class="product-card__heading-h3">Pepperoni fresh</h3>
+                        <p class="product-card__text">
+                            Spicy pepperoni, increased portion of mozzarella, tomatoes, signature tomato sauce
+                        </p>
+                        <div class="product-card__wrap-bottom">
+                            <p class="product-card__price">789 ₽</p>
+                            <button class="product-card__btn">
+                                <img src="./img/cart-color.svg" alt="Order" loading="lazy"><span>Order</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-3  product-card">
+                        <div class="product-card__img">
+                            <img src="./img/product-1.avif" alt="product 1" loading="lazy">
+                        </div>
+                        <h3 class="product-card__heading-h3">Ham and cheese</h3>
+                        <p class="product-card__text">
+                            Ham, mozzarella, special alfredo sauce
+                        </p>
+                        <div class="product-card__wrap-bottom">
+                            <p class="product-card__price">789 ₽</p>
+                            <button class="product-card__btn">
+                                <img src="./img/cart-color.svg" alt="Order" loading="lazy"><span>Order</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-3  product-card">
+                        <div class="product-card__img">
+                            <img src="./img/product-1.avif" alt="product 1" loading="lazy">
+                            <div class="product-card__label product-card__label_bestseller">Bestseller</div>
+                        </div>
+                        <h3 class="product-card__heading-h3">Double chick</h3>
+                        <p class="product-card__text">
+                            Chicken, mozzarella, special alfredo saucee
+                        </p>
+                        <div class="product-card__wrap-bottom">
+                            <p class="product-card__price">789 ₽</p>
+                            <button class="product-card__btn">
+                                <img src="./img/cart-color.svg" alt="Order" loading="lazy"><span>Order</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-3  product-card">
+                        <div class="product-card__img">
+                            <img src="./img/product-1.avif" alt="product 1" loading="lazy">
+                        </div>
+                        <h3 class="product-card__heading-h3">Chorizo fresh</h3>
+                        <p class="product-card__text">
+                            Signature tomato sauce, mozzarella, spicy chorizo, sweet pepper
+                        </p>
+                        <div class="product-card__wrap-bottom">
+                            <p class="product-card__price">789 ₽</p>
+                            <button class="product-card__btn">
+                                <img src="./img/cart-color.svg" alt="Order" loading="lazy"><span>Order</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-3  product-card">
+                        <div class="product-card__img">
+                            <img src="./img/product-1.avif" alt="product 1" loading="lazy">
+                        </div>
+                        <h3 class="product-card__heading-h3">Vegetables and mushrooms</h3>
+                        <p class="product-card__text">
+                            Champignons, tomatoes, sweet peppers, red onions, cheese cubes, mozzarella, signature
+                            tomato
+                            sauce, Italian herbs
+                        </p>
+                        <div class="product-card__wrap-bottom">
+                            <p class="product-card__price">789 ₽</p>
+                            <button class="product-card__btn">
+                                <img src="./img/cart-color.svg" alt="Order" loading="lazy"><span>Order</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-3  product-card">
+                        <div class="product-card__img">
+                            <img src="./img/product-1.avif" alt="product 1" loading="lazy">
+                            <div class="product-card__label product-card__label_new">New</div>
+                        </div>
+                        <h3 class="product-card__heading-h3">Hawaiian</h3>
+                        <p class="product-card__text">
+                            Signature alfredo sauce, chicken, mozzarella, pineapples
+                        </p>
+                        <div class="product-card__wrap-bottom">
+                            <p class="product-card__price">789 ₽</p>
+                            <button class="product-card__btn">
+                                <img src="./img/cart-color.svg" alt="Order" loading="lazy"><span>Order</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <img src="./img/img-arugula.png" alt="Arugula" loading="lazy" class="products__img-arugula">
+                <img src="./img/img-basil.png" alt="Basil" loading="lazy" class="products__img-basil">
+            </div>
+
+        </section>
+        <section id="reviews" class="reviews indent">
+            <div class="container">
+                <h2 class="heading-h2">Reviews</h2>
+                <div class="row">
+                    <div class="col-4 review">
+                        <div class="review__img">
+                            <img src="./img/review-1.jpeg">
+                        </div>
+                        <h3 class="review__heading-h3">Jona Leoner</h3>
+                        <p class="review__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            A possimus dolorem nostrum minima odit fugiat velit praesentium commodi atque blanditiis
+                            repudiandae,
+                            neque expedita omnis nobis minus ipsa illo veniam illum!
+                        </p>
+                        <div class="review__stars">★★★★★</div>
+                    </div>
+                    <div class="col-4 review">
+                        <div class="review__img">
+                            <img src="./img/review-2.jpeg">
+                        </div>
+                        <h3 class="review__heading-h3">John Doe</h3>
+                        <p class="review__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            A possimus dolorem nostrum minima odit fugiat velit praesentium commodi atque blanditiis
+                            repudiandae,
+                            neque expedita omnis nobis minus ipsa illo veniam illum!
+                        </p>
+                        <div class="review__stars">★★★★★</div>
+                    </div>
+                    <div class="col-4 review">
+                        <div class="review__img">
+                            <img src="./img/review-1.jpeg">
+                        </div>
+                        <h3 class="review__heading-h3">Heather Madlin</h3>
+                        <p class="review__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            A possimus dolorem nostrum minima odit fugiat velit praesentium commodi atque blanditiis
+                            repudiandae,
+                            neque expedita omnis nobis minus ipsa illo veniam illum!
+                        </p>
+                        <div class="review__stars">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer indent">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h3 class="footer__heading-h3">About us</h3>
+                    <p class="footer__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto quisquam quam ipsa quas vero
+                        illo, reprehenderit minima placeat laborum voluptatum fugiat delectus iure doloribus dolores
+                    </p>
+                </div>
+                <div class="col-1">
+                    <h3 class="footer__heading-h3">Links</h3>
+                    <ul class="footer__items">
+                        <li class="footer__item"><a href="#home" class="footer__link"> <img src="./img/home.svg"
+                                    alt="Home" loading="lazy"> Home</a> </li>
+                        <li class="footer__item"><a href="#catalog" class="footer__link"><img src="./img/products.svg"
+                                    alt="Products" loading="lazy">Products</a></li>
+                        <li class="footer__item"><a href="#reviews" class="footer__link"><img src="./img/reviews.svg"
+                                    alt="Reviews" loading="lazy">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <h3 class="footer__heading-h3">Social</h3>
+                    <ul class="footer__items">
+                        <li class="footer__item"><a class="footer__link">
+                                <img src="./img/facebook.svg" alt="Facebook" loading="lazy"> Facebook</a>
+                        </li>
+                        <li class="footer__item"><a class="footer__link">
+                                <img src="./img/instagram.svg" alt="Instagram" loading="lazy">Instagram</a>
+                        </li>
+                        <li class="footer__item"><a class="footer__link">
+                                <img src="./img/whatsapp.svg" alt="WhatsApp" loading="lazy">WhatsApp</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h3 class="footer__heading-h3">Contacts up</h3>
+                    <ul class="footer__items">
+                        <li class="footer__item"><img src="./img/phone.svg"> +7-(987)-65-43-21</li>
+                        <li class="footer__item"><img src="./img/address.svg">Moscow, Lenina st. 1</li>
+                        <li class="footer__item"><img src="./img/email.svg"> info@pizza.ru</li>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>
